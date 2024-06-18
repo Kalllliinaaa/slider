@@ -1,0 +1,307 @@
+
+@media (max-width: 2500px){
+
+    .container-2{
+        max-width: 2500px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    } 
+    .frame_container2{
+        margin-left: 0;
+    }
+    .container-advantages{
+        justify-content: space-around;
+    }
+    .directions::before{
+        width: 2500px;
+    }
+    .footer_fon{
+        width: 2500px;
+        /* margin-top: -650px; */
+    }
+    .geo{
+        justify-content: center;
+        display: flex;
+    }
+    .geo::before {
+        width: 2500px;
+    }
+    .geo__info{
+        margin-left: 0;
+    }
+    .footer_fon_right,
+    .fon_footer_left{
+        width: 1250px;
+    }
+}
+@media (max-width:1440px){
+    .directions::before,
+    .geo::before{
+        width: 1440px;
+    }
+}
+@media (max-width:375px){
+    .header-navigation,
+    .container-2_info2,
+    .container-advantages,
+    .header-button,
+    .our__clients,
+    .characteristic-nav,
+    .directions__list_title,
+    .directions__list,
+    .directions__item-1,
+    .directions__item-2,
+    .directions,
+    .footer_fon,
+    .geo::before ,
+    .geo,
+    footer{
+        display:none;
+    }
+    .telefon{
+        color:white;
+        text-decoration: none;
+    }
+    .request-questions-container{
+        max-width: 375px;
+    }
+    .container{
+        max-width: 338.61px;
+        margin: 0 auto;
+    }
+    .title,
+    .title-selection{
+        font-weight: 200;
+        font-size: 23px;
+        line-height: 30.55px;
+        text-align: left;
+        text-transform: uppercase;
+
+    }
+    .title-info{
+        font-size: 14px;
+        line-height: 19.02px;
+        width: 339px;
+    }
+    #hero-button_1{
+        margin-bottom: 26px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .hero-button{
+        width: 100%;
+    }
+    .title-container2{
+        font-weight: 200;
+        font-size: 22px;
+        line-height: 30.49px;
+        width:253px;
+        height:66px;
+        margin-left: 61px;
+        margin-top: 36px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .container-2{
+        padding: 0;
+        max-width: 375px;
+    }
+    .info-container2{
+        font-size: 11px;
+        line-height: 17.43px;
+        text-align: center;
+        width:311px;
+        height:86px;
+        margin-left: 32px;
+    }
+    .basic-info {
+        width: 375px;
+    }
+    .version_2{
+        display: block;
+        width:340px;
+        height:241.55px;
+        position: relative;
+        margin-left: 18px;
+        margin-bottom: 36px;
+    }
+    .version_2-img{
+        position: absolute;
+    }
+    .version_2-btn-r,
+    .version_2-btn-l{
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        transition: 1s;
+        margin-right: 14px;
+        margin-top: 103px;
+    }
+    .version_2-btn-l{
+        margin-left: 291px;
+        margin-top: 103px;
+    }
+    .characteristic-container2{
+        margin-left: 18px;
+        display: grid;
+        grid-template-columns: 64.5fr 90.5fr;
+        grid-template-rows: 34fr 22fr;
+    }
+    .container-2{
+        height: 1578px;
+    }
+    .frame_container2{
+        width:224px;
+        height:73.79px;
+        margin-top: 58px;
+    }
+    .video-card,
+    .video{
+        width:340px;
+        height:207px;
+        margin-top: -450px;
+    }
+    .video-card{
+        margin-bottom: -80px;
+    }
+    .video-card::before{
+        width:340px;
+        height:207px;
+        margin-top: -450px;
+    }
+    .video-button{
+        margin-bottom: 450px;
+        width:37px;
+        height:37px;
+    }
+    .line{
+        margin-top: -115px;
+    }
+    .container-video__info{
+        width: 340px;
+        height: 106.95px;
+        width:340px;
+        height:106.95px;
+        font-size: 11px;
+        line-height: 18.68px;
+        text-align: center;
+        color:white;
+        margin-top: 21px;
+        font-weight: 200;
+    }
+    .container-video__application{
+        flex-direction: column;
+        gap:63px;
+        margin-top: 61px;
+    }
+    .container-video__application_item_title{
+        color: #FFFFFF80;
+    }
+    .application_input{
+        width: 100%;
+        background-color: transparent;
+        border-bottom:1px solid #FFFFFF;
+    }
+    .application_input::placeholder{
+        color:#FFFFFF;
+        font-weight: 300;
+    }
+    .container-video__application_button{
+        width: 100%;
+    }
+    .checkbox {
+        margin-top: 125px;
+    }
+    .custom-checkbox+label{
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 22.92px;
+        font-weight: 300;
+    }
+    .frame_container3{
+        margin: 80px 61px 40px 40px;
+    }
+
+    .mesh{
+        flex-direction: column;
+    }
+    .mesh__card_img {
+        width:340px;
+    }
+    .mesh__card{
+        align-items: flex-start;
+    }
+    .mesh__card_info{
+        width:270px;
+        padding: 21px 31px;
+    }
+    .mesh__card_list_item{
+        font-weight: 300;
+    }
+    .mesh__card_list{
+        line-height: 22.07px;
+        padding-left: 10px;
+    }
+    .mesh__card_button{
+            margin-left: 0;
+    }
+    .request-questions__info{
+        width:340px;
+        height:419px;
+        margin-top: 173px;
+    }
+    .request-questions__info_input{
+        flex-direction: column;
+        width: 340px;
+    }
+    .form__application_item,
+    .form-application_input{
+        width: 340px;
+        font-weight: 300;
+    }
+    .geo_version2 {
+        display: block;
+        background-image: none;
+        height: auto;
+        z-index: 3;
+        position: absolute;
+    }
+    .directions_version2{
+        margin-top: 110px;
+        z-index: 4;
+        position: absolute;
+    }
+    .directions__title2{
+        display: block;
+        font-family: 'Yeseva One';
+        font-size: 22px;
+        text-align: center;
+        margin-top: 55px;
+        margin-bottom: 24px;
+        line-height: 30.49px;
+        color: rgba(227, 184, 115, 1);
+        text-transform: uppercase;
+    }
+    .request-questions{
+        max-width: 375px;
+        height: 1195px;
+        position: relative;
+        margin-top: 266px;
+    }
+    .geo__info{
+        max-width: 375px;
+        margin-top: -500px;
+    }
+    .beginning2{
+        background-image: url(../img/image\ 4.7.png);
+        height: 476px;
+    }
+    .hero-overlay2{
+        height: 476px;
+    }
+    .hero-container{
+        padding-top: 85px;
+    }
+}
